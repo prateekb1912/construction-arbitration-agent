@@ -101,7 +101,7 @@ def run_extraction(
     output_path = output_dir / "index.json"
 
     if output_path.exists():
-        print("Index already exists, skipping.")
+        print("Phase 1: already completed, skipping")
         data = json.loads(output_path.read_text())
         return [SegmentMetadata.model_validate(d) for d in data]
 
