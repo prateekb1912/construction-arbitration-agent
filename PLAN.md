@@ -58,8 +58,8 @@ Phase 4: Case Analysis (sequential, depends on all)
 
 | Phase | Model | Rationale |
 |-------|-------|-----------|
-| 1 | Gemini 1.5 Flash | Fast, cheap for structured extraction |
-| 2, 3, 4 | Gemini 1.5 Pro | Better reasoning for taxonomy, claim discovery, synthesis |
+| 1 | Gemini 2.5 Flash | Fast, cheap for structured extraction |
+| 2, 3, 4 | Gemini 2.5 Pro | Better reasoning for taxonomy, claim discovery, synthesis |
 
 ## Segment Selection (50 segments)
 
@@ -74,4 +74,4 @@ Representative mix across categories:
 | Annexures/specs | 10 | Claim_Dispute, Billing_Details, Milestones, Construction_Work_Bills, etc. |
 | Arbitration/legal | 6 | Board_Resolution, Affidavit, Court_Filing, Statement_of_Truth, Non-Starter_Report |
 
-Full list in `config/selected_segments.json`.
+Selected a variety of files from the different categories identified from the filenames.
