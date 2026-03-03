@@ -1,0 +1,109 @@
+[
+  {
+    "key": "contract_foundation",
+    "name": "Contract & Foundation Documents",
+    "description": "Core legal agreements, annexures, and work orders that establish the project's scope, terms, and conditions.",
+    "children": [
+      {
+        "key": "core_agreements",
+        "name": "Core Agreements",
+        "description": "The primary contract, schedules of quantities, and annexures detailing project terms, milestones, and conditions.",
+        "children": []
+      },
+      {
+        "key": "work_orders_and_amendments",
+        "name": "Work Orders & Amendments",
+        "description": "Initial work orders authorizing the project and supplementary orders that modify scope, rates, or quantities for extra items or deviations.",
+        "children": []
+      }
+    ]
+  },
+  {
+    "key": "project_management_correspondence",
+    "name": "Project Management Correspondence",
+    "description": "Day-to-day communications regarding project execution, progress, and on-site issues.",
+    "children": [
+      {
+        "key": "progress_and_performance",
+        "name": "Progress & Performance",
+        "description": "Letters and notices concerning project timelines, delays, slow progress, and performance evaluations.",
+        "children": []
+      },
+      {
+        "key": "site_issues_and_hindrances",
+        "name": "Site Issues & Hindrances",
+        "description": "Communications detailing on-site hindrances (e.g., soil conditions, waterlogging), quality control issues, and technical challenges.",
+        "children": []
+      },
+      {
+        "key": "requests_and_authorizations",
+        "name": "Requests & Authorizations",
+        "description": "Formal requests for extensions of time, permission to resume work, and other project-related authorizations.",
+        "children": []
+      }
+    ]
+  },
+  {
+    "key": "financial_administration_and_claims",
+    "name": "Financial Administration & Claims",
+    "description": "Documents related to billing, payment, cost claims, and financial securities for the project.",
+    "children": [
+      {
+        "key": "billing_and_invoicing",
+        "name": "Billing & Invoicing",
+        "description": "Submission of interim (RA), final, and escalation bills for work completed, including transmittal letters.",
+        "children": []
+      },
+      {
+        "key": "cost_claims_and_charges",
+        "name": "Cost Claims & Charges",
+        "description": "Documents detailing claims for additional costs due to delays (prolongation), unforeseen circumstances (e.g., COVID-19), or other factors.",
+        "children": []
+      },
+      {
+        "key": "payment_records_and_requests",
+        "name": "Payment Records & Requests",
+        "description": "Vouchers, memoranda of payment, and letters formally requesting the release of funds.",
+        "children": []
+      },
+      {
+        "key": "financial_guarantees",
+        "name": "Financial Guarantees",
+        "description": "Documents related to performance bonds, security deposits, and other bank guarantees.",
+        "children": []
+      }
+    ]
+  },
+  {
+    "key": "dispute_and_legal",
+    "name": "Dispute & Legal",
+    "description": "Formal communications that escalate disagreements into official disputes, including legal notices and formal demands.",
+    "children": [
+      {
+        "key": "formal_notices",
+        "name": "Formal Notices",
+        "description": "Official demand notices for payment or action, and the formal replies to such notices, often preceding legal action.",
+        "children": []
+      },
+      {
+        "key": "contested_actions",
+        "name": "Contested Actions",
+        "description": "Correspondence formally disputing actions taken by a party, such as the levying of penalties or compensation.",
+        "children": []
+      }
+    ]
+  },
+  {
+    "key": "project_closure",
+    "name": "Project Closure",
+    "description": "Official documents signifying the completion of work and the final settlement of the project.",
+    "children": [
+      {
+        "key": "completion_certificates",
+        "name": "Completion Certificates",
+        "description": "Formal certificates confirming the satisfactory completion of the project work as per the contract.",
+        "children": []
+      }
+    ]
+  }
+]

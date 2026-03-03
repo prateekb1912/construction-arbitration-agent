@@ -1,0 +1,71 @@
+[
+  {
+    "key": "unpaid_final_bill",
+    "name": "Unpaid Final Bill for AITF-1 Extension",
+    "description": "Claim by URC for the non-payment of the 40th and Final Bill for the AITF-1 project, which was completed in May 2022 and certified by ISRO's engineers. The total outstanding amount for the final bill components is claimed across multiple letters and notices. (Ref: Work_Order_-_Construction_of_AITF-1_Facility, Letter_-_Final_Bill_Payment_Request, Demand_Notice_-_Construction_Project_Delays)",
+    "approximate_amount": "₹ 1,02,49,810.00",
+    "claimant": "URC",
+    "sub_heads": [
+      "Final Bill for Civil & PH, HVAC, Mech, Elec Works"
+    ]
+  },
+  {
+    "key": "price_escalation_claims",
+    "name": "Disputed Price Escalation Bills",
+    "description": "Claim by URC for increased material and labor costs as per contract clause 10C(ii). URC submitted multiple escalation bills, but ISRO has allegedly only considered 75 days for price escalation against URC's claim for 483 days. (Ref: Invoice_-_Construction_Escalation_Bill, Submission_Letter_-_Escalation_Bill_AITF_Extension, Letter_-_Reply_to_Levy_Letter, Letter_-_Final_Bill_Payment_Request)",
+    "approximate_amount": "₹ 11,29,08,309.00",
+    "claimant": "URC",
+    "sub_heads": [
+      "Escalation for Civil & PH Works",
+      "Escalation for Electrical Works",
+      "Escalation for Air Conditioning Works",
+      "Escalation for Mechanical Works"
+    ]
+  },
+  {
+    "key": "prolongation_charges",
+    "name": "Prolongation Charges for 173 Delay Days",
+    "description": "Claim by URC for costs incurred due to an extended stay on site for 173 days, which URC attributes to delays not of their making. This period excludes the time attributed to the COVID-19 lockdown. (Ref: Work_Order_-_AITF-1_Construction_Extension, Claim_Abstract_-_Covid_and_Prolongation_Charges)",
+    "approximate_amount": "₹ 1,81,66,196.60",
+    "claimant": "URC",
+    "sub_heads": []
+  },
+  {
+    "key": "covid_19_lockdown_costs",
+    "name": "Cost Implications due to COVID-19 Lockdown",
+    "description": "Claim by URC for reimbursement of costs incurred during the project's suspension from March 2020 due to the COVID-19 pandemic, which was declared a 'Force Majeure' event. The claim covers expenses for idle workforce, machinery, and other incidentals. (Ref: Letter_-_Cost_Implications_Due_to_Lockdown, Claim_Abstract_-_Covid_and_Prolongation_Charges, Letter_-_Extension_of_Time_Request)",
+    "approximate_amount": "₹ 8,34,30,676.00",
+    "claimant": "URC",
+    "sub_heads": []
+  },
+  {
+    "key": "interest_on_delayed_payments",
+    "name": "Interest on Delayed Payments",
+    "description": "Claim by URC for interest, stated at 18% in the Demand Notice, on all delayed payments, including the final bills and escalation bills across all work categories. (Ref: Work_Order_-_Construction_of_AITF-1_Facility, Claim_Abstract_-_Covid_and_Prolongation_Charges, Demand_Notice_-_Construction_Project_Delays)",
+    "approximate_amount": "Not totalled, but specific amounts claimed include ₹6,23,915.57 for Civil Final Bill and ₹7,56,553.94 for HVAC Final Bill.",
+    "claimant": "URC",
+    "sub_heads": [
+      "Interest on Civil Final Bill",
+      "Interest on HVAC Final Bill",
+      "Interest on Mechanical Final Bill",
+      "Interest on Electrical Final Bill",
+      "Interest on Escalation Bills"
+    ]
+  },
+  {
+    "key": "gst_reimbursement",
+    "name": "Unpaid GST Reimbursement",
+    "description": "Claim by URC for the reimbursement of Goods and Services Tax (GST) as part of the total outstanding dues for the project. (Ref: Letter_-_Final_Bill_Payment_Request, Demand_Notice_-_Construction_Project_Delays)",
+    "approximate_amount": "₹ 89,92,735.00",
+    "claimant": "URC",
+    "sub_heads": []
+  },
+  {
+    "key": "levy_for_delay",
+    "name": "Levy of Compensation for 68-Day Delay",
+    "description": "Counterclaim by ISRO (URSC) levying compensation or liquidated damages against URC for an alleged 68-day delay in project completion. URC disputes this levy, arguing it is belated, contrary to contract provisions, and ignores excusable delays. (Ref: Letter_-_Reply_to_Levy_Letter, Demand_Notice_-_Construction_Project_Delays)",
+    "approximate_amount": "Not specified",
+    "claimant": "ISRO",
+    "sub_heads": []
+  }
+]

@@ -1,0 +1,992 @@
+[
+  {
+    "segment_id": "Agreement_-_Construction_of_AITF-I_at_ISITE",
+    "clusters": [
+      {
+        "cluster_key": "core_agreements",
+        "cluster_name": "Core Agreements",
+        "confidence": 0.95,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "contract_foundation",
+        "cluster_name": "Contract & Foundation Documents",
+        "confidence": 0.9,
+        "is_primary": false
+      },
+      {
+        "cluster_key": "financial_guarantees",
+        "cluster_name": "Financial Guarantees",
+        "confidence": 0.6,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Contract_Agreement_-_Construction_of_AITF-1_Facility",
+    "clusters": [
+      {
+        "cluster_key": "core_agreements",
+        "cluster_name": "Core Agreements",
+        "confidence": 1.0,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "contract_foundation",
+        "cluster_name": "Contract & Foundation Documents",
+        "confidence": 0.95,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Work_Order_-_Construction_of_AITF-1_Facility",
+    "clusters": [
+      {
+        "cluster_key": "billing_and_invoicing",
+        "cluster_name": "Billing & Invoicing",
+        "confidence": 0.95,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "payment_records_and_requests",
+        "cluster_name": "Payment Records & Requests",
+        "confidence": 0.8,
+        "is_primary": false
+      },
+      {
+        "cluster_key": "project_closure",
+        "cluster_name": "Project Closure",
+        "confidence": 0.7,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Work_Order_-_AITF-1_Construction_Extension",
+    "clusters": [
+      {
+        "cluster_key": "cost_claims_and_charges",
+        "cluster_name": "Cost Claims & Charges",
+        "confidence": 1.0,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "financial_administration_and_claims",
+        "cluster_name": "Financial Administration & Claims",
+        "confidence": 0.9,
+        "is_primary": false
+      },
+      {
+        "cluster_key": "progress_and_performance",
+        "cluster_name": "Progress & Performance",
+        "confidence": 0.6,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Work_Order_-_AITF-1_Construction_Extension_2",
+    "clusters": [
+      {
+        "cluster_key": "work_orders_and_amendments",
+        "cluster_name": "Work Orders & Amendments",
+        "confidence": 1.0,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "contract_foundation",
+        "cluster_name": "Contract & Foundation Documents",
+        "confidence": 0.9,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Supplementary_Work_Order_-_AITF-1_Construction",
+    "clusters": [
+      {
+        "cluster_key": "work_orders_and_amendments",
+        "cluster_name": "Work Orders & Amendments",
+        "confidence": 1.0,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "contract_foundation",
+        "cluster_name": "Contract & Foundation Documents",
+        "confidence": 0.9,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Letter_-_Submission_of_RA_Bill_No_07",
+    "clusters": [
+      {
+        "cluster_key": "billing_and_invoicing",
+        "cluster_name": "Billing & Invoicing",
+        "confidence": 0.95,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "payment_records_and_requests",
+        "cluster_name": "Payment Records & Requests",
+        "confidence": 0.85,
+        "is_primary": false
+      },
+      {
+        "cluster_key": "financial_administration_and_claims",
+        "cluster_name": "Financial Administration & Claims",
+        "confidence": 0.8,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Invoice_-_Construction_Escalation_Bill",
+    "clusters": [
+      {
+        "cluster_key": "billing_and_invoicing",
+        "cluster_name": "Billing & Invoicing",
+        "confidence": 0.95,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "cost_claims_and_charges",
+        "cluster_name": "Cost Claims & Charges",
+        "confidence": 0.8,
+        "is_primary": false
+      },
+      {
+        "cluster_key": "financial_administration_and_claims",
+        "cluster_name": "Financial Administration & Claims",
+        "confidence": 0.75,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Invoice_-_Construction_Escalation_Bill_2",
+    "clusters": [
+      {
+        "cluster_key": "billing_and_invoicing",
+        "cluster_name": "Billing & Invoicing",
+        "confidence": 0.95,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "cost_claims_and_charges",
+        "cluster_name": "Cost Claims & Charges",
+        "confidence": 0.8,
+        "is_primary": false
+      },
+      {
+        "cluster_key": "financial_administration_and_claims",
+        "cluster_name": "Financial Administration & Claims",
+        "confidence": 0.75,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Certificate_-_Final_Bill_for_Construction_Work",
+    "clusters": [
+      {
+        "cluster_key": "completion_certificates",
+        "cluster_name": "Completion Certificates",
+        "confidence": 1.0,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "project_closure",
+        "cluster_name": "Project Closure",
+        "confidence": 0.95,
+        "is_primary": false
+      },
+      {
+        "cluster_key": "billing_and_invoicing",
+        "cluster_name": "Billing & Invoicing",
+        "confidence": 0.7,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Bank_Letter_-_Guarantee_Expiry_Notification",
+    "clusters": [
+      {
+        "cluster_key": "financial_guarantees",
+        "cluster_name": "Financial Guarantees",
+        "confidence": 1.0,
+        "is_primary": true
+      }
+    ]
+  },
+  {
+    "segment_id": "Claim_Abstract_-_Covid_and_Prolongation_Charges",
+    "clusters": [
+      {
+        "cluster_key": "cost_claims_and_charges",
+        "cluster_name": "Cost Claims & Charges",
+        "confidence": 1.0,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "billing_and_invoicing",
+        "cluster_name": "Billing & Invoicing",
+        "confidence": 0.4,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Cash_Payment_Voucher_-_ISRO_Extension_Expenses",
+    "clusters": [
+      {
+        "cluster_key": "payment_records_and_requests",
+        "cluster_name": "Payment Records & Requests",
+        "confidence": 1.0,
+        "is_primary": true
+      }
+    ]
+  },
+  {
+    "segment_id": "Submission_Letter_-_Escalation_Bill_AITF_Extension",
+    "clusters": [
+      {
+        "cluster_key": "billing_and_invoicing",
+        "cluster_name": "Billing & Invoicing",
+        "confidence": 1.0,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "payment_records_and_requests",
+        "cluster_name": "Payment Records & Requests",
+        "confidence": 0.5,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Letter_-_Delay_in_Construction_Progress",
+    "clusters": [
+      {
+        "cluster_key": "progress_and_performance",
+        "cluster_name": "Progress & Performance",
+        "confidence": 1.0,
+        "is_primary": true
+      }
+    ]
+  },
+  {
+    "segment_id": "Letter_-_Delay_in_Construction_Progress_2",
+    "clusters": [
+      {
+        "cluster_key": "progress_and_performance",
+        "cluster_name": "Progress & Performance",
+        "confidence": 1.0,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "contested_actions",
+        "cluster_name": "Contested Actions",
+        "confidence": 0.4,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Letter_-_Construction_Site_Issues",
+    "clusters": [
+      {
+        "cluster_key": "site_issues_and_hindrances",
+        "cluster_name": "Site Issues & Hindrances",
+        "confidence": 1.0,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "progress_and_performance",
+        "cluster_name": "Progress & Performance",
+        "confidence": 0.3,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Letter_-_Hindrance_in_Footing_Excavation",
+    "clusters": [
+      {
+        "cluster_key": "site_issues_and_hindrances",
+        "cluster_name": "Site Issues & Hindrances",
+        "confidence": 1.0,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "progress_and_performance",
+        "cluster_name": "Progress & Performance",
+        "confidence": 0.5,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Letter_-_Hindrance_in_Construction_Work",
+    "clusters": [
+      {
+        "cluster_key": "site_issues_and_hindrances",
+        "cluster_name": "Site Issues & Hindrances",
+        "confidence": 1.0,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "progress_and_performance",
+        "cluster_name": "Progress & Performance",
+        "confidence": 0.5,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Letter_-_Extension_of_Time_Request",
+    "clusters": [
+      {
+        "cluster_key": "requests_and_authorizations",
+        "cluster_name": "Requests & Authorizations",
+        "confidence": 1.0,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "progress_and_performance",
+        "cluster_name": "Progress & Performance",
+        "confidence": 0.6,
+        "is_primary": false
+      },
+      {
+        "cluster_key": "cost_claims_and_charges",
+        "cluster_name": "Cost Claims & Charges",
+        "confidence": 0.4,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Letter_-_Escalation_Bill_Submission",
+    "clusters": [
+      {
+        "cluster_key": "billing_and_invoicing",
+        "cluster_name": "Billing & Invoicing",
+        "confidence": 1.0,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "payment_records_and_requests",
+        "cluster_name": "Payment Records & Requests",
+        "confidence": 0.7,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Letter_-_Payment_Release_Request_for_ISRO_Project",
+    "clusters": [
+      {
+        "cluster_key": "payment_records_and_requests",
+        "cluster_name": "Payment Records & Requests",
+        "confidence": 1.0,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "billing_and_invoicing",
+        "cluster_name": "Billing & Invoicing",
+        "confidence": 0.8,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Letter_-_Slow_Progress_of_Construction_Work",
+    "clusters": [
+      {
+        "cluster_key": "progress_and_performance",
+        "cluster_name": "Progress & Performance",
+        "confidence": 1.0,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "site_issues_and_hindrances",
+        "cluster_name": "Site Issues & Hindrances",
+        "confidence": 0.7,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Letter_-_Construction_Progress_Reminder",
+    "clusters": [
+      {
+        "cluster_key": "progress_and_performance",
+        "cluster_name": "Progress & Performance",
+        "confidence": 1.0,
+        "is_primary": true
+      }
+    ]
+  },
+  {
+    "segment_id": "Letter_-_Reply_to_Levy_Letter",
+    "clusters": [
+      {
+        "cluster_key": "contested_actions",
+        "cluster_name": "Contested Actions",
+        "confidence": 1.0,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "cost_claims_and_charges",
+        "cluster_name": "Cost Claims & Charges",
+        "confidence": 0.8,
+        "is_primary": false
+      },
+      {
+        "cluster_key": "formal_notices",
+        "cluster_name": "Formal Notices",
+        "confidence": 0.6,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Letter_-_Cost_Implications_Due_to_Lockdown",
+    "clusters": [
+      {
+        "cluster_key": "cost_claims_and_charges",
+        "cluster_name": "Cost Claims & Charges",
+        "confidence": 1.0,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "site_issues_and_hindrances",
+        "cluster_name": "Site Issues & Hindrances",
+        "confidence": 0.6,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Letter_-_Request_to_Resume_Construction_Project",
+    "clusters": [
+      {
+        "cluster_key": "requests_and_authorizations",
+        "cluster_name": "Requests & Authorizations",
+        "confidence": 1.0,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "site_issues_and_hindrances",
+        "cluster_name": "Site Issues & Hindrances",
+        "confidence": 0.7,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Letter_-_Final_Bill_Payment_Request",
+    "clusters": [
+      {
+        "cluster_key": "payment_records_and_requests",
+        "cluster_name": "Payment Records & Requests",
+        "confidence": 1.0,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "billing_and_invoicing",
+        "cluster_name": "Billing & Invoicing",
+        "confidence": 0.9,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Demand_Notice_-_Construction_Project_Delays",
+    "clusters": [
+      {
+        "cluster_key": "formal_notices",
+        "cluster_name": "Formal Notices",
+        "confidence": 1.0,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "contested_actions",
+        "cluster_name": "Contested Actions",
+        "confidence": 0.8,
+        "is_primary": false
+      },
+      {
+        "cluster_key": "cost_claims_and_charges",
+        "cluster_name": "Cost Claims & Charges",
+        "confidence": 0.7,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Legal_Notice_-_Demand_Notice_Reply",
+    "clusters": [
+      {
+        "cluster_key": "formal_notices",
+        "cluster_name": "Formal Notices",
+        "confidence": 1.0,
+        "is_primary": true
+      }
+    ]
+  },
+  {
+    "segment_id": "Claim_Letter_-_Construction_Dispute_Settlement",
+    "clusters": [
+      {
+        "cluster_key": "formal_notices",
+        "cluster_name": "Formal Notices",
+        "confidence": 0.95,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "contested_actions",
+        "cluster_name": "Contested Actions",
+        "confidence": 0.8,
+        "is_primary": false
+      },
+      {
+        "cluster_key": "cost_claims_and_charges",
+        "cluster_name": "Cost Claims & Charges",
+        "confidence": 0.7,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Notice_-_Delay_in_Construction_Progress",
+    "clusters": [
+      {
+        "cluster_key": "progress_and_performance",
+        "cluster_name": "Progress & Performance",
+        "confidence": 0.98,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "contested_actions",
+        "cluster_name": "Contested Actions",
+        "confidence": 0.5,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Notice_-_COVID-19_Impact_on_Contract",
+    "clusters": [
+      {
+        "cluster_key": "site_issues_and_hindrances",
+        "cluster_name": "Site Issues & Hindrances",
+        "confidence": 0.95,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "cost_claims_and_charges",
+        "cluster_name": "Cost Claims & Charges",
+        "confidence": 0.7,
+        "is_primary": false
+      },
+      {
+        "cluster_key": "progress_and_performance",
+        "cluster_name": "Progress & Performance",
+        "confidence": 0.6,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Petition_-_Pending_Contractor_Payment",
+    "clusters": [
+      {
+        "cluster_key": "payment_records_and_requests",
+        "cluster_name": "Payment Records & Requests",
+        "confidence": 0.95,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "billing_and_invoicing",
+        "cluster_name": "Billing & Invoicing",
+        "confidence": 0.85,
+        "is_primary": false
+      },
+      {
+        "cluster_key": "project_closure",
+        "cluster_name": "Project Closure",
+        "confidence": 0.6,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Notice_-_Non-Acceptance_of_Directors_Decision",
+    "clusters": [
+      {
+        "cluster_key": "formal_notices",
+        "cluster_name": "Formal Notices",
+        "confidence": 0.95,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "contested_actions",
+        "cluster_name": "Contested Actions",
+        "confidence": 0.9,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Writ_Petition_-_Payment_Dispute",
+    "clusters": [
+      {
+        "cluster_key": "formal_notices",
+        "cluster_name": "Formal Notices",
+        "confidence": 0.9,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "payment_records_and_requests",
+        "cluster_name": "Payment Records & Requests",
+        "confidence": 0.85,
+        "is_primary": false
+      },
+      {
+        "cluster_key": "dispute_and_legal",
+        "cluster_name": "Dispute & Legal",
+        "confidence": 0.75,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Annexure_-_Claim_Dispute_on_Construction_Delays",
+    "clusters": [
+      {
+        "cluster_key": "site_issues_and_hindrances",
+        "cluster_name": "Site Issues & Hindrances",
+        "confidence": 0.9,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "progress_and_performance",
+        "cluster_name": "Progress & Performance",
+        "confidence": 0.85,
+        "is_primary": false
+      },
+      {
+        "cluster_key": "contested_actions",
+        "cluster_name": "Contested Actions",
+        "confidence": 0.7,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Annexure_-_Construction_Billing_Details",
+    "clusters": [
+      {
+        "cluster_key": "billing_and_invoicing",
+        "cluster_name": "Billing & Invoicing",
+        "confidence": 0.98,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "cost_claims_and_charges",
+        "cluster_name": "Cost Claims & Charges",
+        "confidence": 0.7,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Annexure_-_Construction_Milestones_ISITE_Bangalore",
+    "clusters": [
+      {
+        "cluster_key": "core_agreements",
+        "cluster_name": "Core Agreements",
+        "confidence": 0.95,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "progress_and_performance",
+        "cluster_name": "Progress & Performance",
+        "confidence": 0.6,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Annexure_-_Construction_Work_Bills",
+    "clusters": [
+      {
+        "cluster_key": "billing_and_invoicing",
+        "cluster_name": "Billing & Invoicing",
+        "confidence": 0.98,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "cost_claims_and_charges",
+        "cluster_name": "Cost Claims & Charges",
+        "confidence": 0.75,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Annexure_-_Construction_Extension_AITF-1",
+    "clusters": [
+      {
+        "cluster_key": "core_agreements",
+        "cluster_name": "Core Agreements",
+        "confidence": 0.95,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "contract_foundation",
+        "cluster_name": "Contract & Foundation Documents",
+        "confidence": 0.8,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Annexure_-_Construction_Clarifications_ISRO",
+    "clusters": [
+      {
+        "cluster_key": "core_agreements",
+        "cluster_name": "Core Agreements",
+        "confidence": 0.95,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "contract_foundation",
+        "cluster_name": "Contract & Foundation Documents",
+        "confidence": 0.8,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Claim_Statement_-_Construction_Project_AITF-1",
+    "clusters": [
+      {
+        "cluster_key": "cost_claims_and_charges",
+        "cluster_name": "Cost Claims & Charges",
+        "confidence": 0.95,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "financial_administration_and_claims",
+        "cluster_name": "Financial Administration & Claims",
+        "confidence": 0.85,
+        "is_primary": false
+      },
+      {
+        "cluster_key": "dispute_and_legal",
+        "cluster_name": "Dispute & Legal",
+        "confidence": 0.6,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Annexure_-_Construction_Milestones_and_Specifications",
+    "clusters": [
+      {
+        "cluster_key": "core_agreements",
+        "cluster_name": "Core Agreements",
+        "confidence": 0.9,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "contract_foundation",
+        "cluster_name": "Contract & Foundation Documents",
+        "confidence": 0.8,
+        "is_primary": false
+      },
+      {
+        "cluster_key": "progress_and_performance",
+        "cluster_name": "Progress & Performance",
+        "confidence": 0.5,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Annexure_-_Cement_and_Steel_Procurement_Conditions",
+    "clusters": [
+      {
+        "cluster_key": "core_agreements",
+        "cluster_name": "Core Agreements",
+        "confidence": 0.95,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "contract_foundation",
+        "cluster_name": "Contract & Foundation Documents",
+        "confidence": 0.8,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Annexure_-_Construction_Tender_Queries",
+    "clusters": [
+      {
+        "cluster_key": "core_agreements",
+        "cluster_name": "Core Agreements",
+        "confidence": 0.95,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "contract_foundation",
+        "cluster_name": "Contract & Foundation Documents",
+        "confidence": 0.8,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Board_Resolution_-_Arbitration_Authorization",
+    "clusters": [
+      {
+        "cluster_key": "dispute_and_legal",
+        "cluster_name": "Dispute & Legal",
+        "confidence": 0.95,
+        "is_primary": true
+      }
+    ]
+  },
+  {
+    "segment_id": "Affidavit_-_Compliance_with_Civil_Procedure",
+    "clusters": [
+      {
+        "cluster_key": "dispute_and_legal",
+        "cluster_name": "Dispute & Legal",
+        "confidence": 0.95,
+        "is_primary": true
+      }
+    ]
+  },
+  {
+    "segment_id": "Court_Filing_-_Construction_Dispute",
+    "clusters": [
+      {
+        "cluster_key": "dispute_and_legal",
+        "cluster_name": "Dispute & Legal",
+        "confidence": 0.95,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "cost_claims_and_charges",
+        "cluster_name": "Cost Claims & Charges",
+        "confidence": 0.7,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Statement_of_Truth_-_Commercial_Suit",
+    "clusters": [
+      {
+        "cluster_key": "dispute_and_legal",
+        "cluster_name": "Dispute & Legal",
+        "confidence": 0.9,
+        "is_primary": true
+      }
+    ]
+  },
+  {
+    "segment_id": "Non-Starter_Report_-_Pre-Institution_Mediation",
+    "clusters": [
+      {
+        "cluster_key": "formal_notices",
+        "cluster_name": "Formal Notices",
+        "confidence": 0.95,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "dispute_and_legal",
+        "cluster_name": "Dispute & Legal",
+        "confidence": 0.9,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Reply_Letter_-_Construction_Extension_Dispute",
+    "clusters": [
+      {
+        "cluster_key": "cost_claims_and_charges",
+        "cluster_name": "Cost Claims & Charges",
+        "confidence": 0.9,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "requests_and_authorizations",
+        "cluster_name": "Requests & Authorizations",
+        "confidence": 0.8,
+        "is_primary": false
+      },
+      {
+        "cluster_key": "contested_actions",
+        "cluster_name": "Contested Actions",
+        "confidence": 0.6,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Government_Order_-_Levy_of_Compensation",
+    "clusters": [
+      {
+        "cluster_key": "contested_actions",
+        "cluster_name": "Contested Actions",
+        "confidence": 0.95,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "progress_and_performance",
+        "cluster_name": "Progress & Performance",
+        "confidence": 0.7,
+        "is_primary": false
+      },
+      {
+        "cluster_key": "financial_administration_and_claims",
+        "cluster_name": "Financial Administration & Claims",
+        "confidence": 0.6,
+        "is_primary": false
+      }
+    ]
+  },
+  {
+    "segment_id": "Government_Order_-_Compensation_for_Construction_Delay",
+    "clusters": [
+      {
+        "cluster_key": "contested_actions",
+        "cluster_name": "Contested Actions",
+        "confidence": 0.9,
+        "is_primary": true
+      },
+      {
+        "cluster_key": "progress_and_performance",
+        "cluster_name": "Progress & Performance",
+        "confidence": 0.8,
+        "is_primary": false
+      },
+      {
+        "cluster_key": "requests_and_authorizations",
+        "cluster_name": "Requests & Authorizations",
+        "confidence": 0.65,
+        "is_primary": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,1135 @@
+[
+  {
+    "segment_id": "Agreement_-_Construction_of_AITF-I_at_ISITE",
+    "mappings": [
+      {
+        "claim_key": "levy_for_delay",
+        "relevance_type": "contextual",
+        "role": "supports_employer",
+        "confidence": 0.8,
+        "reasoning": "This annexure details the financial penalties for non-achievement of milestones, providing the contractual basis for ISRO's counterclaim to levy compensation for delays."
+      },
+      {
+        "claim_key": "price_escalation_claims",
+        "relevance_type": "contextual",
+        "role": "neutral",
+        "confidence": 0.7,
+        "reasoning": "The document includes general contract conditions which would contain the clauses governing price escalation, thus providing the framework for the dispute."
+      },
+      {
+        "claim_key": "prolongation_charges",
+        "relevance_type": "contextual",
+        "role": "neutral",
+        "confidence": 0.7,
+        "reasoning": "The agreement outlines project timelines and conditions for extensions, which forms the basis for calculating and disputing any prolongation charges due to delays."
+      }
+    ]
+  },
+  {
+    "segment_id": "Contract_Agreement_-_Construction_of_AITF-1_Facility",
+    "mappings": [
+      {
+        "claim_key": "unpaid_final_bill",
+        "relevance_type": "contextual",
+        "role": "neutral",
+        "confidence": 0.8,
+        "reasoning": "This is the primary contract that establishes the payment obligations between the parties, forming the legal basis for the final bill claim."
+      },
+      {
+        "claim_key": "price_escalation_claims",
+        "relevance_type": "contextual",
+        "role": "neutral",
+        "confidence": 0.8,
+        "reasoning": "The formal contract agreement contains the specific clauses that define the terms and conditions for price escalation, which is the central point of this dispute."
+      },
+      {
+        "claim_key": "levy_for_delay",
+        "relevance_type": "contextual",
+        "role": "neutral",
+        "confidence": 0.8,
+        "reasoning": "This agreement establishes the project timelines and penalty clauses, providing the contractual framework for both claims of excusable delay and counterclaims for levy."
+      }
+    ]
+  },
+  {
+    "segment_id": "Work_Order_-_Construction_of_AITF-1_Facility",
+    "mappings": [
+      {
+        "claim_key": "unpaid_final_bill",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "This document is the 40th and Final Bill itself, which is the subject of the claim for non-payment, detailing the amounts owed."
+      },
+      {
+        "claim_key": "interest_on_delayed_payments",
+        "relevance_type": "contains_data",
+        "role": "supports_claimant",
+        "confidence": 0.9,
+        "reasoning": "The document establishes the principal amount and date of the final bill, which are necessary data points for calculating the claimed interest on its delayed payment."
+      },
+      {
+        "claim_key": "gst_reimbursement",
+        "relevance_type": "contains_data",
+        "role": "supports_claimant",
+        "confidence": 0.9,
+        "reasoning": "As the final bill, this document would detail the GST component being charged, forming the basis for the specific reimbursement claim."
+      }
+    ]
+  },
+  {
+    "segment_id": "Work_Order_-_AITF-1_Construction_Extension",
+    "mappings": [
+      {
+        "claim_key": "prolongation_charges",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "This document directly details the calculation of the claimed prolongation charges of ₹1,81,66,196.60 for 173 delay days, perfectly matching the claim head."
+      },
+      {
+        "claim_key": "covid_19_lockdown_costs",
+        "relevance_type": "contextual",
+        "role": "supports_claimant",
+        "confidence": 0.7,
+        "reasoning": "The document references and excludes a 310-day Covid period from its calculation, which helps contextualize and separate the prolongation claim from the distinct COVID-19 lockdown cost claim."
+      }
+    ]
+  },
+  {
+    "segment_id": "Work_Order_-_AITF-1_Construction_Extension_2",
+    "mappings": [
+      {
+        "claim_key": "unpaid_final_bill",
+        "relevance_type": "contextual",
+        "role": "supports_claimant",
+        "confidence": 0.6,
+        "reasoning": "This supplementary work order sanctions extra costs for Civil & PH works, which would form a component of the total value of the final bill, thereby providing context for the overall amount claimed."
+      }
+    ]
+  },
+  {
+    "segment_id": "Supplementary_Work_Order_-_AITF-1_Construction",
+    "mappings": [
+      {
+        "claim_key": "unpaid_final_bill",
+        "relevance_type": "contextual",
+        "role": "supports_claimant",
+        "confidence": 0.6,
+        "reasoning": "This document officially sanctions additional work and costs, which would be included in the final bill calculation, thus providing context for the total amount claimed by URC."
+      }
+    ]
+  },
+  {
+    "segment_id": "Letter_-_Submission_of_RA_Bill_No_07",
+    "mappings": [
+      {
+        "claim_key": "interest_on_delayed_payments",
+        "relevance_type": "contextual",
+        "role": "neutral",
+        "confidence": 0.3,
+        "reasoning": "This document shows the submission of an interim bill, which is part of the project's payment history, but it does not provide direct evidence for delays on the specific final or escalation bills in question."
+      }
+    ]
+  },
+  {
+    "segment_id": "Invoice_-_Construction_Escalation_Bill",
+    "mappings": [
+      {
+        "claim_key": "price_escalation_claims",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "This document is a specific escalation bill for electrical work, providing direct evidence of the amounts and calculations URC is claiming under this head."
+      },
+      {
+        "claim_key": "interest_on_delayed_payments",
+        "relevance_type": "contains_data",
+        "role": "supports_claimant",
+        "confidence": 0.9,
+        "reasoning": "As one of the disputed escalation bills, this invoice establishes a principal amount and date, which are necessary data points for the claim of interest on delayed payments."
+      }
+    ]
+  },
+  {
+    "segment_id": "Invoice_-_Construction_Escalation_Bill_2",
+    "mappings": [
+      {
+        "claim_key": "price_escalation_claims",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "This document is an escalation bill for air conditioning works, directly substantiating URC's claim for price escalation. It provides the specific details and amounts claimed for this category of work."
+      }
+    ]
+  },
+  {
+    "segment_id": "Certificate_-_Final_Bill_for_Construction_Work",
+    "mappings": [
+      {
+        "claim_key": "unpaid_final_bill",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 0.8,
+        "reasoning": "The certificate confirms the satisfactory completion of the work and that final measurements were taken, which are prerequisites for the final bill payment URC is claiming."
+      },
+      {
+        "claim_key": "unpaid_final_bill",
+        "relevance_type": "direct_evidence",
+        "role": "supports_employer",
+        "confidence": 0.7,
+        "reasoning": "The document explicitly states \"there are no dues,\" which could be used by the employer to argue that all financial obligations to the claimant have been met."
+      },
+      {
+        "claim_key": "levy_for_delay",
+        "relevance_type": "direct_evidence",
+        "role": "rebuts",
+        "confidence": 0.8,
+        "reasoning": "The certificate confirms satisfactory completion of the work without mentioning any penalties or delays, which undermines the employer's later attempt to levy compensation for delays."
+      }
+    ]
+  },
+  {
+    "segment_id": "Bank_Letter_-_Guarantee_Expiry_Notification",
+    "mappings": [
+      {
+        "claim_key": "levy_for_delay",
+        "relevance_type": "contextual",
+        "role": "rebuts",
+        "confidence": 0.6,
+        "reasoning": "The letter shows that the employer did not make a claim against the bank guarantee before its expiry, which could imply they did not consider the contractor liable for delays at that point in time."
+      }
+    ]
+  },
+  {
+    "segment_id": "Claim_Abstract_-_Covid_and_Prolongation_Charges",
+    "mappings": [
+      {
+        "claim_key": "prolongation_charges",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "This document is a claim abstract from the claimant that explicitly lists and quantifies the prolongation charges being claimed."
+      },
+      {
+        "claim_key": "covid_19_lockdown_costs",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "The claim abstract directly itemizes and provides a monetary value for the costs claimed due to the COVID-19 lockdown."
+      },
+      {
+        "claim_key": "interest_on_delayed_payments",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "The document explicitly lists and quantifies claims for interest on various delayed final bills and escalation bills, directly supporting this claim head."
+      }
+    ]
+  },
+  {
+    "segment_id": "Cash_Payment_Voucher_-_ISRO_Extension_Expenses",
+    "mappings": [
+      {
+        "claim_key": "prolongation_charges",
+        "relevance_type": "contains_data",
+        "role": "supports_claimant",
+        "confidence": 0.7,
+        "reasoning": "The vouchers document ongoing site expenses like electricity, water, and maintenance, which could be used as evidence to calculate the overhead costs incurred during the project prolongation period."
+      },
+      {
+        "claim_key": "covid_19_lockdown_costs",
+        "relevance_type": "contains_data",
+        "role": "supports_claimant",
+        "confidence": 0.7,
+        "reasoning": "These vouchers detail expenses such as labour food and vaccination charges, which can serve as proof of costs incurred to maintain the workforce during the COVID-19 lockdown period."
+      }
+    ]
+  },
+  {
+    "segment_id": "Submission_Letter_-_Escalation_Bill_AITF_Extension",
+    "mappings": [
+      {
+        "claim_key": "price_escalation_claims",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "This letter serves as direct proof that the claimant formally submitted escalation bills to the employer for payment, substantiating their claim for these costs."
+      }
+    ]
+  },
+  {
+    "segment_id": "Letter_-_Delay_in_Construction_Progress",
+    "mappings": [
+      {
+        "claim_key": "levy_for_delay",
+        "relevance_type": "direct_evidence",
+        "role": "supports_employer",
+        "confidence": 0.9,
+        "reasoning": "This letter from the employer formally documents significant project delays and attributes them to the contractor, providing a basis for their counterclaim to levy compensation."
+      },
+      {
+        "claim_key": "prolongation_charges",
+        "relevance_type": "direct_evidence",
+        "role": "rebuts",
+        "confidence": 0.9,
+        "reasoning": "The letter from the employer attributes the project delays directly to the contractor's slow progress, which rebuts the contractor's claim that they are entitled to prolongation costs for delays not of their making."
+      }
+    ]
+  },
+  {
+    "segment_id": "Letter_-_Delay_in_Construction_Progress_2",
+    "mappings": [
+      {
+        "claim_key": "levy_for_delay",
+        "relevance_type": "direct_evidence",
+        "role": "supports_employer",
+        "confidence": 1.0,
+        "reasoning": "This letter explicitly rejects the contractor's reasons for delay and attributes the slow progress solely to their poor planning, providing strong evidence for the employer's counterclaim for levying compensation."
+      },
+      {
+        "claim_key": "prolongation_charges",
+        "relevance_type": "direct_evidence",
+        "role": "rebuts",
+        "confidence": 1.0,
+        "reasoning": "The document shows the employer formally rejecting the contractor's justifications for delays, thereby directly rebutting the claim for prolongation costs which are contingent on the delays not being the contractor's fault."
+      }
+    ]
+  },
+  {
+    "segment_id": "Letter_-_Construction_Site_Issues",
+    "mappings": [
+      {
+        "claim_key": "levy_for_delay",
+        "relevance_type": "direct_evidence",
+        "role": "supports_employer",
+        "confidence": 0.8,
+        "reasoning": "This letter from the employer documents specific quality and performance issues by the claimant, which can be used to argue that delays were the claimant's fault."
+      },
+      {
+        "claim_key": "prolongation_charges",
+        "relevance_type": "direct_evidence",
+        "role": "rebuts",
+        "confidence": 0.8,
+        "reasoning": "The document details construction quality issues attributed to the claimant, which rebuts the claimant's argument that project delays were not of their making."
+      }
+    ]
+  },
+  {
+    "segment_id": "Letter_-_Hindrance_in_Footing_Excavation",
+    "mappings": [
+      {
+        "claim_key": "prolongation_charges",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 0.9,
+        "reasoning": "The letter documents specific hindrances (soil conditions, waterlogging) encountered by the claimant, which supports their claim for costs due to an extended stay on site."
+      },
+      {
+        "claim_key": "levy_for_delay",
+        "relevance_type": "direct_evidence",
+        "role": "rebuts",
+        "confidence": 0.9,
+        "reasoning": "This document provides evidence of delays caused by external factors (site conditions, adjacent agency's work), rebutting the employer's claim that the claimant was solely responsible for the delay."
+      }
+    ]
+  },
+  {
+    "segment_id": "Letter_-_Hindrance_in_Construction_Work",
+    "mappings": [
+      {
+        "claim_key": "prolongation_charges",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 0.9,
+        "reasoning": "The letter from the claimant details specific hindrances like challenging soil conditions and water logging, which supports their claim for prolongation costs."
+      },
+      {
+        "claim_key": "levy_for_delay",
+        "relevance_type": "direct_evidence",
+        "role": "rebuts",
+        "confidence": 0.9,
+        "reasoning": "This document serves as evidence that the claimant notified the employer of delays caused by external factors, thereby rebutting the employer's counterclaim for delay levies."
+      }
+    ]
+  },
+  {
+    "segment_id": "Letter_-_Extension_of_Time_Request",
+    "mappings": [
+      {
+        "claim_key": "covid_19_lockdown_costs",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "This letter is a formal request for a time extension specifically due to the COVID-19 pandemic, directly supporting the claim for costs incurred during this force majeure event."
+      },
+      {
+        "claim_key": "levy_for_delay",
+        "relevance_type": "direct_evidence",
+        "role": "rebuts",
+        "confidence": 0.9,
+        "reasoning": "The letter formally attributes a significant period of delay to a 'Force Majeure' event (COVID-19), which directly rebuts the employer's counterclaim for delay compensation."
+      },
+      {
+        "claim_key": "prolongation_charges",
+        "relevance_type": "contextual",
+        "role": "supports_claimant",
+        "confidence": 0.7,
+        "reasoning": "The request for a time extension due to a major disruption provides context for the overall project delay, supporting the idea that not all delays were the claimant's fault."
+      }
+    ]
+  },
+  {
+    "segment_id": "Letter_-_Escalation_Bill_Submission",
+    "mappings": [
+      {
+        "claim_key": "price_escalation_claims",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "The document is a direct submission of an escalation bill, providing concrete evidence that the claimant was actively filing these claims during the project."
+      }
+    ]
+  },
+  {
+    "segment_id": "Letter_-_Payment_Release_Request_for_ISRO_Project",
+    "mappings": [
+      {
+        "claim_key": "unpaid_final_bill",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "This letter is a direct request for the final bill payment, stating it has been pending for over 12 months since project completion, which is the core of this claim."
+      },
+      {
+        "claim_key": "interest_on_delayed_payments",
+        "relevance_type": "contextual",
+        "role": "supports_claimant",
+        "confidence": 0.8,
+        "reasoning": "The letter establishes a long delay in payment (over 12 months), which is the prerequisite for claiming interest on delayed payments."
+      },
+      {
+        "claim_key": "price_escalation_claims",
+        "relevance_type": "contextual",
+        "role": "supports_claimant",
+        "confidence": 0.7,
+        "reasoning": "The large total amount requested (Rs. 13.22 Cr) suggests the final payment request includes more than just the base final bill, likely encompassing outstanding escalation claims."
+      },
+      {
+        "claim_key": "gst_reimbursement",
+        "relevance_type": "contextual",
+        "role": "supports_claimant",
+        "confidence": 0.7,
+        "reasoning": "The total outstanding amount mentioned in the letter likely includes all components of the final bill, including the claimed GST reimbursement."
+      }
+    ]
+  },
+  {
+    "segment_id": "Letter_-_Slow_Progress_of_Construction_Work",
+    "mappings": [
+      {
+        "claim_key": "levy_for_delay",
+        "relevance_type": "direct_evidence",
+        "role": "supports_employer",
+        "confidence": 1.0,
+        "reasoning": "This letter from the employer explicitly details significant delays attributed to the claimant's slow progress and insufficient resources, directly supporting the basis for levying compensation."
+      },
+      {
+        "claim_key": "prolongation_charges",
+        "relevance_type": "direct_evidence",
+        "role": "rebuts",
+        "confidence": 1.0,
+        "reasoning": "The document directly counters the claimant's arguments for excusable delays, attributing the slow progress to the claimant's own failures, thereby rebutting their claim for prolongation charges."
+      }
+    ]
+  },
+  {
+    "segment_id": "Letter_-_Construction_Progress_Reminder",
+    "mappings": [
+      {
+        "claim_key": "levy_for_delay",
+        "relevance_type": "direct_evidence",
+        "role": "supports_employer",
+        "confidence": 0.9,
+        "reasoning": "This letter serves as a formal warning from the employer about the claimant's slow progress and insufficient labor, building the case for levying compensation for delays."
+      },
+      {
+        "claim_key": "prolongation_charges",
+        "relevance_type": "direct_evidence",
+        "role": "rebuts",
+        "confidence": 0.9,
+        "reasoning": "The document highlights that the project is significantly behind schedule due to the claimant's lack of resources, which rebuts the claimant's position that delays were not their fault."
+      }
+    ]
+  },
+  {
+    "segment_id": "Letter_-_Reply_to_Levy_Letter",
+    "mappings": [
+      {
+        "claim_key": "levy_for_delay",
+        "relevance_type": "direct_evidence",
+        "role": "rebuts",
+        "confidence": 1.0,
+        "reasoning": "The letter is a direct refutation from URC of the compensation levy imposed by URSC for a 68-day delay, arguing it is belated and contrary to the contract."
+      },
+      {
+        "claim_key": "price_escalation_claims",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 0.9,
+        "reasoning": "The document explicitly states URC's claim for price escalation covering 483 days, contrasting it with URSC's consideration of only 75 days."
+      },
+      {
+        "claim_key": "unpaid_final_bill",
+        "relevance_type": "contextual",
+        "role": "supports_claimant",
+        "confidence": 0.7,
+        "reasoning": "The letter asserts URC's entitlement to the release of the final bill, supporting the claim for non-payment in the context of refuting the levy."
+      }
+    ]
+  },
+  {
+    "segment_id": "Letter_-_Cost_Implications_Due_to_Lockdown",
+    "mappings": [
+      {
+        "claim_key": "covid_19_lockdown_costs",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "This letter is a direct claim from URC detailing the specific costs incurred for idle workforce and machinery due to the COVID-19 lockdown and requesting reimbursement."
+      }
+    ]
+  },
+  {
+    "segment_id": "Letter_-_Request_to_Resume_Construction_Project",
+    "mappings": [
+      {
+        "claim_key": "covid_19_lockdown_costs",
+        "relevance_type": "contextual",
+        "role": "supports_claimant",
+        "confidence": 0.8,
+        "reasoning": "The letter establishes the context for the COVID-19 claim by documenting that ISRO suspended the work, which led to the costs URC later claimed."
+      },
+      {
+        "claim_key": "prolongation_charges",
+        "relevance_type": "contextual",
+        "role": "supports_claimant",
+        "confidence": 0.6,
+        "reasoning": "This document provides context for project delays by confirming the work was suspended by ISRO, a key factor in URC's claim for prolongation costs."
+      }
+    ]
+  },
+  {
+    "segment_id": "Letter_-_Final_Bill_Payment_Request",
+    "mappings": [
+      {
+        "claim_key": "unpaid_final_bill",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "The document is a formal request from URC for the payment of the final bills for the completed and certified project."
+      },
+      {
+        "claim_key": "price_escalation_claims",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "This letter explicitly requests the release of payment for the 'final escalation bills', directly supporting this claim."
+      },
+      {
+        "claim_key": "gst_reimbursement",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "The letter specifically includes a request for the release of the GST reimbursement amount, making it direct evidence for this claim."
+      }
+    ]
+  },
+  {
+    "segment_id": "Demand_Notice_-_Construction_Project_Delays",
+    "mappings": [
+      {
+        "claim_key": "unpaid_final_bill",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "This is a formal demand notice that explicitly claims payment for the outstanding final bill."
+      },
+      {
+        "claim_key": "price_escalation_claims",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "The notice formally demands payment for 'price variation', which corresponds to the price escalation claims."
+      },
+      {
+        "claim_key": "prolongation_charges",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "The document explicitly demands compensation for prolongation, making it direct evidence for this claim."
+      },
+      {
+        "claim_key": "covid_19_lockdown_costs",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "The notice includes a formal demand for payment of COVID-19 related expenses incurred by URC."
+      },
+      {
+        "claim_key": "interest_on_delayed_payments",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 0.9,
+        "reasoning": "This demand notice is the formal basis for the claim for interest on all delayed payments, as referenced in the claim head description."
+      },
+      {
+        "claim_key": "gst_reimbursement",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "The notice explicitly includes a demand for the payment of the outstanding GST reimbursement."
+      },
+      {
+        "claim_key": "levy_for_delay",
+        "relevance_type": "direct_evidence",
+        "role": "rebuts",
+        "confidence": 1.0,
+        "reasoning": "The document directly challenges the 'arbitrary levy of liquidated damages' by URSC, thus rebutting ISRO's counterclaim."
+      }
+    ]
+  },
+  {
+    "segment_id": "Legal_Notice_-_Demand_Notice_Reply",
+    "mappings": [
+      {
+        "claim_key": "unpaid_final_bill",
+        "relevance_type": "direct_evidence",
+        "role": "rebuts",
+        "confidence": 0.95,
+        "reasoning": "As a formal reply from ISRO's advocate to URC's demand notice, this document would present ISRO's arguments for not paying the final bill."
+      },
+      {
+        "claim_key": "price_escalation_claims",
+        "relevance_type": "direct_evidence",
+        "role": "rebuts",
+        "confidence": 0.95,
+        "reasoning": "This reply from ISRO would contest the validity or amount of URC's price escalation claims mentioned in the demand notice."
+      },
+      {
+        "claim_key": "prolongation_charges",
+        "relevance_type": "direct_evidence",
+        "role": "rebuts",
+        "confidence": 0.95,
+        "reasoning": "The document serves as ISRO's official rebuttal to the claim for prolongation charges, likely attributing delays to URC."
+      },
+      {
+        "claim_key": "covid_19_lockdown_costs",
+        "relevance_type": "direct_evidence",
+        "role": "rebuts",
+        "confidence": 0.95,
+        "reasoning": "This legal reply from ISRO would formally reject URC's claim for reimbursement of costs related to the COVID-19 lockdown."
+      },
+      {
+        "claim_key": "levy_for_delay",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 0.95,
+        "reasoning": "In replying to URC's notice, ISRO's advocate would defend and justify the levy of compensation, thereby supporting ISRO's counterclaim."
+      }
+    ]
+  },
+  {
+    "segment_id": "Claim_Letter_-_Construction_Dispute_Settlement",
+    "mappings": [
+      {
+        "claim_key": "unpaid_final_bill",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 0.9,
+        "reasoning": "The letter explicitly cites 'non-payment of certified amounts' as a key reason for invoking arbitration, directly supporting the claim."
+      },
+      {
+        "claim_key": "levy_for_delay",
+        "relevance_type": "direct_evidence",
+        "role": "rebuts",
+        "confidence": 0.9,
+        "reasoning": "This document directly contests the 'arbitrary levy of liquidated damages' by the department, serving as a formal rebuttal to ISRO's claim."
+      },
+      {
+        "claim_key": "covid_19_lockdown_costs",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 0.9,
+        "reasoning": "The letter mentions 'financial losses due to COVID-19 shutdowns' as a central issue in the dispute, supporting this specific claim."
+      },
+      {
+        "claim_key": "prolongation_charges",
+        "relevance_type": "contextual",
+        "role": "supports_claimant",
+        "confidence": 0.7,
+        "reasoning": "The document references 'project delays' and 'extensions of time' as part of the dispute, which provides the context for the prolongation charges claim."
+      }
+    ]
+  },
+  {
+    "segment_id": "Notice_-_Delay_in_Construction_Progress",
+    "mappings": [
+      {
+        "claim_key": "levy_for_delay",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "This notice from ISRO (the claimant for this head) formally documents slow progress and attributes delays to URC, forming the basis for their subsequent levy."
+      },
+      {
+        "claim_key": "prolongation_charges",
+        "relevance_type": "direct_evidence",
+        "role": "rebuts",
+        "confidence": 1.0,
+        "reasoning": "By officially blaming URC for construction delays early in the project, this document directly rebuts URC's claim that delays were not their fault."
+      }
+    ]
+  },
+  {
+    "segment_id": "Notice_-_COVID-19_Impact_on_Contract",
+    "mappings": [
+      {
+        "claim_key": "covid_19_lockdown_costs",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "This notice from URC formally documents the impact of the COVID-19 lockdown, which is the basis for their subsequent claim for related costs."
+      },
+      {
+        "claim_key": "prolongation_charges",
+        "relevance_type": "contextual",
+        "role": "supports_claimant",
+        "confidence": 0.7,
+        "reasoning": "The notice establishes a major delay event (COVID-19 lockdown) which contributes to the overall project extension, forming the backdrop for prolongation charges."
+      }
+    ]
+  },
+  {
+    "segment_id": "Petition_-_Pending_Contractor_Payment",
+    "mappings": [
+      {
+        "claim_key": "unpaid_final_bill",
+        "relevance_type": "direct_evidence",
+        "role": "neutral",
+        "confidence": 1.0,
+        "reasoning": "The document explicitly acknowledges that the final bill payment is pending, confirming the core fact of the claim, but links it to an approval process for time extension."
+      },
+      {
+        "claim_key": "price_escalation_claims",
+        "relevance_type": "direct_evidence",
+        "role": "neutral",
+        "confidence": 1.0,
+        "reasoning": "The document directly confirms that the escalation payment is pending, corroborating the existence of the dispute while citing a procedural reason for the delay."
+      },
+      {
+        "claim_key": "interest_on_delayed_payments",
+        "relevance_type": "contextual",
+        "role": "supports_claimant",
+        "confidence": 0.8,
+        "reasoning": "By acknowledging that final and escalation bills are pending, this document provides the factual basis for URC's claim for interest on these delayed payments."
+      }
+    ]
+  },
+  {
+    "segment_id": "Notice_-_Non-Acceptance_of_Directors_Decision",
+    "mappings": [
+      {
+        "claim_key": "unpaid_final_bill",
+        "relevance_type": "contextual",
+        "role": "supports_claimant",
+        "confidence": 0.8,
+        "reasoning": "This notice shows URC's formal rejection of ISRO's decision on their claims, which includes the unpaid final bill, and escalates the dispute."
+      },
+      {
+        "claim_key": "price_escalation_claims",
+        "relevance_type": "contextual",
+        "role": "supports_claimant",
+        "confidence": 0.8,
+        "reasoning": "The document demonstrates URC's formal non-acceptance of the employer's decision regarding their claims, which prominently includes price escalation."
+      },
+      {
+        "claim_key": "prolongation_charges",
+        "relevance_type": "contextual",
+        "role": "supports_claimant",
+        "confidence": 0.9,
+        "reasoning": "The notice explicitly mentions URC's non-acceptance of the decision on 'extension of time,' which is the foundation for the prolongation charges claim."
+      },
+      {
+        "claim_key": "covid_19_lockdown_costs",
+        "relevance_type": "contextual",
+        "role": "supports_claimant",
+        "confidence": 0.8,
+        "reasoning": "As a major component of URC's claims, the COVID-19 costs would be included in the Director's decision that URC is formally rejecting here."
+      }
+    ]
+  },
+  {
+    "segment_id": "Writ_Petition_-_Payment_Dispute",
+    "mappings": [
+      {
+        "claim_key": "unpaid_final_bill",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "The writ petition was filed specifically to compel the release of payments against the final bills, directly evidencing the non-payment and URC's legal action."
+      },
+      {
+        "claim_key": "interest_on_delayed_payments",
+        "relevance_type": "contextual",
+        "role": "supports_claimant",
+        "confidence": 0.8,
+        "reasoning": "This legal filing demonstrates the extent of the payment delay, providing a strong basis for the associated claim for interest."
+      },
+      {
+        "claim_key": "gst_reimbursement",
+        "relevance_type": "contextual",
+        "role": "supports_claimant",
+        "confidence": 0.7,
+        "reasoning": "The petition seeks payment for the total final bill amount, which would implicitly include the GST component claimed by URC."
+      }
+    ]
+  },
+  {
+    "segment_id": "Annexure_-_Claim_Dispute_on_Construction_Delays",
+    "mappings": [
+      {
+        "claim_key": "prolongation_charges",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 0.9,
+        "reasoning": "The document details URC's specific reasons for claiming excusable delays, which directly supports the basis for their prolongation charges claim."
+      },
+      {
+        "claim_key": "prolongation_charges",
+        "relevance_type": "direct_evidence",
+        "role": "rebuts",
+        "confidence": 0.9,
+        "reasoning": "The document contains ISRO's direct refutation of URC's delay claims, attributing delays to the contractor's own shortcomings, thus rebutting the claim."
+      },
+      {
+        "claim_key": "levy_for_delay",
+        "relevance_type": "direct_evidence",
+        "role": "supports_employer",
+        "confidence": 0.9,
+        "reasoning": "ISRO's arguments in this document, which attribute delays to the contractor, provide the justification for their counterclaim to levy compensation for delays."
+      },
+      {
+        "claim_key": "levy_for_delay",
+        "relevance_type": "direct_evidence",
+        "role": "rebuts",
+        "confidence": 0.9,
+        "reasoning": "URC's arguments in this document, claiming excusable delays, directly rebut ISRO's counterclaim for levying compensation."
+      }
+    ]
+  },
+  {
+    "segment_id": "Annexure_-_Construction_Billing_Details",
+    "mappings": [
+      {
+        "claim_key": "price_escalation_claims",
+        "relevance_type": "contains_data",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "This annexure provides the detailed calculations and base indices used by URC to formulate their price escalation claims, serving as primary data for the claim."
+      },
+      {
+        "claim_key": "unpaid_final_bill",
+        "relevance_type": "contains_data",
+        "role": "neutral",
+        "confidence": 0.7,
+        "reasoning": "The document provides the quarterly breakdown of work value, which forms the basis for the running and final bills, offering factual data relevant to the claim."
+      }
+    ]
+  },
+  {
+    "segment_id": "Annexure_-_Construction_Milestones_ISITE_Bangalore",
+    "mappings": [
+      {
+        "claim_key": "levy_for_delay",
+        "relevance_type": "direct_evidence",
+        "role": "supports_employer",
+        "confidence": 1.0,
+        "reasoning": "This annexure specifies the project milestones and the monetary amounts to be withheld for not achieving them, providing the contractual basis for ISRO's levy for delay."
+      },
+      {
+        "claim_key": "prolongation_charges",
+        "relevance_type": "contextual",
+        "role": "neutral",
+        "confidence": 0.8,
+        "reasoning": "The document defines the original project timelines and milestones, which serves as the baseline for measuring the delays that are the subject of the prolongation claim."
+      }
+    ]
+  },
+  {
+    "segment_id": "Annexure_-_Construction_Work_Bills",
+    "mappings": [
+      {
+        "claim_key": "price_escalation_claims",
+        "relevance_type": "contains_data",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "This document provides the detailed list of bills and the comprehensive calculations for material and labor escalation, forming the core evidence for URC's claim."
+      },
+      {
+        "claim_key": "unpaid_final_bill",
+        "relevance_type": "contains_data",
+        "role": "neutral",
+        "confidence": 0.8,
+        "reasoning": "The annexure lists all the work bills submitted over the project's duration, providing the financial context and build-up to the final unpaid bill."
+      },
+      {
+        "claim_key": "interest_on_delayed_payments",
+        "relevance_type": "contains_data",
+        "role": "supports_claimant",
+        "confidence": 0.7,
+        "reasoning": "By listing the dates of each of the 27 bills, this document provides the necessary data points to calculate the duration of payment delays for the interest claim."
+      }
+    ]
+  },
+  {
+    "segment_id": "Annexure_-_Construction_Extension_AITF-1",
+    "mappings": []
+  },
+  {
+    "segment_id": "Annexure_-_Construction_Clarifications_ISRO",
+    "mappings": [
+      {
+        "claim_key": "interest_on_delayed_payments",
+        "relevance_type": "contains_data",
+        "role": "supports_employer",
+        "confidence": 0.8,
+        "reasoning": "This document specifies a 10% per annum interest rate for the mobilization advance, which provides a contractual data point that the employer could use to argue against the claimant's 18% interest claim on delayed payments."
+      }
+    ]
+  },
+  {
+    "segment_id": "Claim_Statement_-_Construction_Project_AITF-1",
+    "mappings": [
+      {
+        "claim_key": "price_escalation_claims",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "The document is a claim statement that explicitly details claims for price escalation across various work categories, directly supporting this claim head."
+      },
+      {
+        "claim_key": "levy_for_delay",
+        "relevance_type": "direct_evidence",
+        "role": "rebuts",
+        "confidence": 1.0,
+        "reasoning": "As a claim statement from the contractor, its inclusion of the 'LD amount' indicates a dispute or rebuttal of the levy imposed by the employer."
+      },
+      {
+        "claim_key": "covid_19_lockdown_costs",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "The document summary explicitly states that it contains a 'Covid claim,' directly supporting the claim for costs incurred during the lockdown."
+      },
+      {
+        "claim_key": "prolongation_charges",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "The document is a claim statement that, according to its summary, details a claim for 'compensation for prolongation'."
+      },
+      {
+        "claim_key": "interest_on_delayed_payments",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "The summary confirms the document includes claims for 'interest on both final and escalation bills,' directly supporting this claim."
+      },
+      {
+        "claim_key": "unpaid_final_bill",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 0.9,
+        "reasoning": "The document is a comprehensive statement for the 'total balance amount due,' which inherently includes the unpaid final bill as a core component of the dispute."
+      }
+    ]
+  },
+  {
+    "segment_id": "Annexure_-_Construction_Milestones_and_Specifications",
+    "mappings": [
+      {
+        "claim_key": "levy_for_delay",
+        "relevance_type": "direct_evidence",
+        "role": "supports_employer",
+        "confidence": 1.0,
+        "reasoning": "This annexure details financial penalties for not achieving milestones, providing the direct contractual basis for the employer to levy compensation for delays."
+      },
+      {
+        "claim_key": "prolongation_charges",
+        "relevance_type": "contextual",
+        "role": "rebuts",
+        "confidence": 0.7,
+        "reasoning": "By outlining contractor-specific milestones and penalties, this document can be used by the employer to argue that delays were the contractor's fault, thereby rebutting the claim for prolongation charges."
+      }
+    ]
+  },
+  {
+    "segment_id": "Annexure_-_Cement_and_Steel_Procurement_Conditions",
+    "mappings": [
+      {
+        "claim_key": "price_escalation_claims",
+        "relevance_type": "contextual",
+        "role": "neutral",
+        "confidence": 0.7,
+        "reasoning": "This document specifies the contractual conditions for procuring key materials, providing the necessary context and basis for evaluating price escalation claims related to cement and steel."
+      }
+    ]
+  },
+  {
+    "segment_id": "Annexure_-_Construction_Tender_Queries",
+    "mappings": [
+      {
+        "claim_key": "price_escalation_claims",
+        "relevance_type": "contextual",
+        "role": "neutral",
+        "confidence": 0.6,
+        "reasoning": "This document clarifies technical specifications for works like AC and mechanical, providing context for the scope and potential cost basis of related price escalation claims."
+      }
+    ]
+  },
+  {
+    "segment_id": "Board_Resolution_-_Arbitration_Authorization",
+    "mappings": []
+  },
+  {
+    "segment_id": "Affidavit_-_Compliance_with_Civil_Procedure",
+    "mappings": []
+  },
+  {
+    "segment_id": "Court_Filing_-_Construction_Dispute",
+    "mappings": [
+      {
+        "claim_key": "unpaid_final_bill",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "This document is the claimant's Memorandum of Plaint, which formally outlines the claim for the unpaid final bill."
+      },
+      {
+        "claim_key": "price_escalation_claims",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "The plaint details the claimant's dispute over price escalation, forming a core part of their legal suit."
+      },
+      {
+        "claim_key": "prolongation_charges",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "The claimant's legal filing specifies the demand for costs incurred due to project delays allegedly caused by the employer."
+      },
+      {
+        "claim_key": "covid_19_lockdown_costs",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "The plaint asserts the claimant's right to reimbursement for costs incurred during the COVID-19 lockdown period."
+      },
+      {
+        "claim_key": "interest_on_delayed_payments",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "The legal filing includes a claim for interest on all outstanding payments as part of the relief sought."
+      },
+      {
+        "claim_key": "gst_reimbursement",
+        "relevance_type": "direct_evidence",
+        "role": "supports_claimant",
+        "confidence": 1.0,
+        "reasoning": "The plaint specifies all components of the outstanding amount, including the claim for GST reimbursement."
+      },
+      {
+        "claim_key": "levy_for_delay",
+        "relevance_type": "direct_evidence",
+        "role": "rebuts",
+        "confidence": 1.0,
+        "reasoning": "As the claimant's primary legal filing, it will contest and argue against the validity of the counterclaim for a levy imposed by the employer."
+      }
+    ]
+  },
+  {
+    "segment_id": "Statement_of_Truth_-_Commercial_Suit",
+    "mappings": []
+  },
+  {
+    "segment_id": "Non-Starter_Report_-_Pre-Institution_Mediation",
+    "mappings": []
+  },
+  {
+    "segment_id": "Reply_Letter_-_Construction_Extension_Dispute",
+    "mappings": [
+      {
+        "claim_key": "price_escalation_claims",
+        "relevance_type": "direct_evidence",
+        "role": "rebuts",
+        "confidence": 0.9,
+        "reasoning": "This reply from the employer (URSC) directly addresses and states its position on price escalation, countering the claimant's full claim."
+      },
+      {
+        "claim_key": "prolongation_charges",
+        "relevance_type": "direct_evidence",
+        "role": "rebuts",
+        "confidence": 0.95,
+        "reasoning": "The document rebuts the claimant's entitlement to prolongation charges by attributing 68 days of delay to the contractor."
+      },
+      {
+        "claim_key": "levy_for_delay",
+        "relevance_type": "direct_evidence",
+        "role": "supports_employer",
+        "confidence": 1.0,
+        "reasoning": "The letter reiterates the employer's decision to attribute 68 days of delay to the contractor and levy compensation, directly supporting their counterclaim."
+      }
+    ]
+  },
+  {
+    "segment_id": "Government_Order_-_Levy_of_Compensation",
+    "mappings": [
+      {
+        "claim_key": "levy_for_delay",
+        "relevance_type": "direct_evidence",
+        "role": "supports_employer",
+        "confidence": 1.0,
+        "reasoning": "This is the official order from the employer levying the specific compensation amount for the 68-day delay, serving as primary evidence for their counterclaim."
+      },
+      {
+        "claim_key": "prolongation_charges",
+        "relevance_type": "direct_evidence",
+        "role": "rebuts",
+        "confidence": 0.9,
+        "reasoning": "By levying a penalty for a 68-day delay attributed to the claimant, this order directly contradicts the claimant's assertion that they are owed costs for project prolongation."
+      }
+    ]
+  },
+  {
+    "segment_id": "Government_Order_-_Compensation_for_Construction_Delay",
+    "mappings": [
+      {
+        "claim_key": "levy_for_delay",
+        "relevance_type": "direct_evidence",
+        "role": "supports_employer",
+        "confidence": 1.0,
+        "reasoning": "This letter formally communicates and justifies the employer's decision to levy compensation for delay, directly supporting their counterclaim."
+      },
+      {
+        "claim_key": "prolongation_charges",
+        "relevance_type": "direct_evidence",
+        "role": "rebuts",
+        "confidence": 0.9,
+        "reasoning": "The letter justifies the levy by deeming 68 days of delay as unjustified, thereby rebutting the claimant's entitlement to prolongation charges."
+      }
+    ]
+  }
+]
