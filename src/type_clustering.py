@@ -16,10 +16,7 @@ from .models import (
 
 load_dotenv()
 
-API_KEY = os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY")
-if not API_KEY:
-    raise ValueError("Set GEMINI_API_KEY or GOOGLE_API_KEY in .env")
-
+API_KEY = os.getenv("GEMINI_API_KEY")
 genai.configure(api_key=API_KEY)
 
 TAXONOMY_PROMPT = """You are analyzing a construction arbitration document corpus. Below is an index of document segments with their extracted metadata (document_type, purpose, summary).

@@ -49,3 +49,41 @@ class TypeClassification(BaseModel):
     clusters: list[ClusterAssignment] = Field(
         description="1-3 cluster assignments, one should have is_primary=true"
     )
+
+
+class ClaimHead(BaseModel):
+    key: str = Field(description="Unique key (lowercase, underscored)")
+    name: str = Field(description="Descriptive name grounded in the documents")
+    description: str = Field(
+        description="Detailed description with dates, amounts, parties from the corpus"
+    )
+    approximate_amount: Optional[str] = Field(
+        default=None, description="Approximate claimed amount if discernible"
+    )
+    claimant: Optional[str] = Field(
+        default=None, description="Who is claiming (Contractor, Employer)"
+    )
+    sub_heads: list[str] = Field(
+        default_factory=list, description="Sub-categories if any"
+    )
+
+
+class ClaimMapping(BaseModel):
+    claim_key: str = Field(description="Key from claim_heads")
+    relevance_type: str = Field(
+        description="direct_evidence | contains_data | contextual"
+    )
+    role: str = Field(
+        description="supports_claimant | supports_employer | rebuts | neutral"
+    )
+    confidence: float = Field(ge=0, le=1)
+    reasoning: str = Field(description="Brief explanation of why this doc relates")
+
+
+class ClaimClassification(BaseModel):
+    """Per-segment claim head mappings (a doc can map to multiple claim heads)."""
+
+    segment_id: str
+    mappings: list[ClaimMapping] = Field(
+        description="Document can support one party while rebutting another"
+    )

@@ -1,6 +1,8 @@
 import json
+from concurrent.futures import ThreadPoolExecutor, wait
 
 from config import OUTPUT_DIR, SEGMENTS_DIR, SEGMENTS_FILE
+from src.claim_discovery import run_claim_discovery
 from src.extraction import run_extraction
 from src.type_clustering import run_type_clustering
 
@@ -16,8 +18,11 @@ def main() -> None:
         segment_ids=segment_ids,
     )
 
-    # Phase 2: Document Type Clustering
-    run_type_clustering(output_dir=OUTPUT_DIR, index=index)
+    # Phases 2 and 3: Run in parallel
+    with ThreadPoolExecutor(max_workers=2) as ex:
+        f2 = ex.submit(run_type_clustering, output_dir=OUTPUT_DIR, index=index)
+        f3 = ex.submit(run_claim_discovery, output_dir=OUTPUT_DIR, index=index)
+        wait([f2, f3])
 
 
 if __name__ == "__main__":
