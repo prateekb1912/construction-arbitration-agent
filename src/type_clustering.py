@@ -98,7 +98,7 @@ def _index_to_summary(index: list[SegmentMetadata]) -> str:
 
 
 def _generate_taxonomy(
-    index: list[SegmentMetadata], model_name: str = "gemini-2.0-flash"
+    index: list[SegmentMetadata], model_name: str = "gemini-2.5-pro"
 ) -> list[TaxonomyNode]:
     """Step A: LLM proposes hierarchical taxonomy from the index."""
     summary = _index_to_summary(index)
@@ -137,7 +137,7 @@ def _generate_taxonomy(
 def _classify_batch(
     segments: list[SegmentMetadata],
     taxonomy: list[TaxonomyNode],
-    model_name: str = "gemini-2.0-flash",
+    model_name: str = "gemini-2.5-pro",
 ) -> list[TypeClassification]:
     """Classify a batch of segments into taxonomy clusters."""
     taxonomy_json = json.dumps(
@@ -192,7 +192,7 @@ def run_type_clustering(
     output_dir: Path,
     index: list[SegmentMetadata] | None = None,
     index_path: Path | None = None,
-    model_name: str = "gemini-2.0-flash",
+    model_name: str = "gemini-2.5-pro",
     batch_size: int = 10,
 ) -> tuple[list[TaxonomyNode], list[TypeClassification]]:
 
