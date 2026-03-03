@@ -56,7 +56,7 @@ def extract_metadata(
     response = model.generate_content(
         prompt,
         generation_config=genai.types.GenerationConfig(
-            temperature=0.1,
+            temperature=0,
             response_mime_type="application/json",
         ),
     )

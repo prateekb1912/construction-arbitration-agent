@@ -2,6 +2,7 @@ import json
 from concurrent.futures import ThreadPoolExecutor, wait
 
 from config import OUTPUT_DIR, SEGMENTS_DIR, SEGMENTS_FILE
+from src.case_analysis import run_case_analysis
 from src.claim_discovery import run_claim_discovery
 from src.extraction import run_extraction
 from src.type_clustering import run_type_clustering
@@ -23,6 +24,9 @@ def main() -> None:
         f2 = ex.submit(run_type_clustering, output_dir=OUTPUT_DIR, index=index)
         f3 = ex.submit(run_claim_discovery, output_dir=OUTPUT_DIR, index=index)
         wait([f2, f3])
+
+    # Phase 4: Case Analysis
+    run_case_analysis(output_dir=OUTPUT_DIR)
 
 
 if __name__ == "__main__":

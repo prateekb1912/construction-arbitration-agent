@@ -1,6 +1,5 @@
 import json
 import os
-import time
 from pathlib import Path
 
 import google.generativeai as genai
@@ -113,7 +112,7 @@ def _discover_claim_heads(
     response = model.generate_content(
         prompt,
         generation_config=genai.types.GenerationConfig(
-            temperature=0.2,
+            temperature=0,
             response_mime_type="application/json",
         ),
     )
@@ -161,7 +160,7 @@ def _map_batch_to_claims(
     response = model.generate_content(
         prompt,
         generation_config=genai.types.GenerationConfig(
-            temperature=0.1,
+            temperature=0,
             response_mime_type="application/json",
         ),
     )
@@ -231,7 +230,6 @@ def run_claim_discovery(
         return heads, classifications
 
     print("Phase 3: Claim Head Discovery")
-    start = time.perf_counter()
 
     print("  Step A: Discovering claim heads from documents...")
     claim_heads = _discover_claim_heads(index, model_name)
@@ -257,6 +255,5 @@ def run_claim_discovery(
     )
     print(f"  Wrote {mappings_path}")
 
-    elapsed = time.perf_counter() - start
-    print(f"Phase 3 complete in {elapsed:.1f}s")
+    print("Phase 3 complete")
     return claim_heads, classifications

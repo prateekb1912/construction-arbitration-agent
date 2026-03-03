@@ -2,7 +2,6 @@
 
 import json
 import os
-import time
 from pathlib import Path
 
 import google.generativeai as genai
@@ -109,7 +108,7 @@ def _generate_taxonomy(
     response = model.generate_content(
         prompt,
         generation_config=genai.types.GenerationConfig(
-            temperature=0.2,
+            temperature=0,
             response_mime_type="application/json",
         ),
     )
@@ -154,7 +153,7 @@ def _classify_batch(
     response = model.generate_content(
         prompt,
         generation_config=genai.types.GenerationConfig(
-            temperature=0.1,
+            temperature=0,
             response_mime_type="application/json",
         ),
     )
@@ -226,7 +225,6 @@ def run_type_clustering(
         index = [SegmentMetadata.model_validate(d) for d in data]
 
     print("Phase 2: Document Type Clustering")
-    start = time.perf_counter()
 
     # Step A: Generate taxonomy
     print("  Step A: Generating document type taxonomy...")
@@ -256,6 +254,5 @@ def run_type_clustering(
     )
     print(f"  Wrote {classifications_path}")
 
-    elapsed = time.perf_counter() - start
-    print(f"Phase 2 complete in {elapsed:.1f}s")
+    print("Phase 2 complete")
     return taxonomy, classifications
